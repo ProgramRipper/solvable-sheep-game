@@ -1,88 +1,106 @@
 {
-    "title": "标题",
-    "desc": "描述",
-    "bgm": "/sound-disco.mp3",
+    "title": "鲸了个鲸",
+    "desc": "羊了个羊 (希月萌奈 ver.)",
+    "bgm": "/bgm.mp3",
     "dark": true,
-    "background": "",
-    "backgroundBlur": false,
-    "backgroundColor": "#8dac85",
+    "background": "background.jpg",
+    "backgroundBlur": true,
+    "backgroundColor": "#4b5572",
     "pure": true,
     "maxLevel": 50,
     "icons": [
         {
-            "name": "1",
-            "content": "/1.png",
+            "name": "好听",
+            "content": "/好听.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "2",
-            "content": "/2.png",
+            "name": "好耶",
+            "content": "/好耶.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "3",
-            "content": "/3.png",
+            "name": "啊对对对",
+            "content": "/啊对对对.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "4",
-            "content": "/4.png",
+            "name": "哇",
+            "content": "/哇.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "5",
-            "content": "/5.png",
+            "name": "好屑",
+            "content": "/好屑.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "6",
-            "content": "/6.png",
+            "name": "wink",
+            "content": "/wink.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "7",
-            "content": "/7.png",
+            "name": "哼",
+            "content": "/哼.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "8",
-            "content": "/8.png",
+            "name": "awsl",
+            "content": "/awsl.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "9",
-            "content": "/9.png",
+            "name": "吃鲸",
+            "content": "/吃鲸.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
-            "name": "10",
-            "content": "/10.png",
+            "name": "阿巴阿巴",
+            "content": "/阿巴阿巴.png",
+            "clickSound": "button-click",
+            "tripleSound": "triple"
+        },
+        {
+            "name": "哭哭",
+            "content": "/哭哭.png",
+            "clickSound": "button-click",
+            "tripleSound": "triple"
+        },
+        {
+            "name": "摸摸头",
+            "content": "/摸摸头.png",
+            "clickSound": "button-click",
+            "tripleSound": "triple"
+        },
+        {
+            "name": "nya",
+            "content": "/nya.png",
+            "clickSound": "button-click",
+            "tripleSound": "triple"
+        },
+        {
+            "name": "黑脸",
+            "content": "/黑脸.png",
+            "clickSound": "button-click",
+            "tripleSound": "triple"
+        },
+        {
+            "name": "疑问",
+            "content": "/疑问.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         }
     ],
     "sounds": [
-        {
-            "name": "sound-undo",
-            "src": "/sound-undo.mp3"
-        },
-        {
-            "name": "sound-shift",
-            "src": "/sound-shift.mp3"
-        },
-        {
-            "name": "sound-wash",
-            "src": "/sound-wash.mp3"
-        },
         {
             "name": "button-click",
             "src": "/sound-button-click.mp3"
@@ -93,8 +111,8 @@
         }
     ],
     "operateSoundMap": {
-        "shift": "sound-shift",
-        "undo": "sound-undo",
-        "wash": "sound-wash"
+        "shift": "button-click",
+        "undo": "button-click",
+        "wash": "button-click"
     }
 }

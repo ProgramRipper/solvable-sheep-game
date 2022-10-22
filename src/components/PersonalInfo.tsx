@@ -41,11 +41,11 @@ export const GithubLink: FC = () => {
     return (
         <a
             className={style.githubLink}
-            href="https://github.com/StreakingMan/solvable-sheep-game"
+            href="https://github.com/ProgramRipper/solvable-sheep-game"
             target="_blank"
             rel="noreferrer"
         >
-            @StreakingMan
+            @ProgramRipper
         </a>
     );
 };
@@ -54,11 +54,11 @@ export const BiliBiliLink: FC = () => {
     return (
         <a
             className={style.bilibiliLink}
-            href="https://space.bilibili.com/18424564"
+            href="https://space.bilibili.com/591892279"
             target="_blank"
             rel="noreferrer"
         >
-            @streaking_man
+            @希月萌奈
         </a>
     );
 };
