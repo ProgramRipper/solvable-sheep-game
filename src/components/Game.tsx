@@ -492,11 +492,7 @@ const Game: FC<{
             </div>
             <div className="level">
                 关卡{level}/{maxLevel} 剩余
-                {scene.filter((i) => i.status === 0).length}
-                <br />
-                得分{score}
-                <br />
-                用时{timestampToUsedTimeString(usedTime)}
+                {scene.filter((i) => i.status === 0).length} 得分{score}
             </div>
             {/*积分、排行榜*/}
             <Suspense fallback={<span>rank list</span>}>
