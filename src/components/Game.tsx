@@ -484,7 +484,10 @@ const Game: FC<{
                     洗牌
                 </button>
                 <button className="flex-grow" onClick={levelUp}>
-                    下一关
+                    跳关
+                </button>
+                <button className="flex-grow" onClick={restart}>
+                    重置
                 </button>
             </div>
             <div className="level">
