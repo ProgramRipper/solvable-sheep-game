@@ -9,9 +9,6 @@ export default defineConfig({
     build: {
         outDir: 'diy-dist',
     },
-    define: {
-        __DIY__: true,
-    },
     server: {
         host: true,
         port: 5556,

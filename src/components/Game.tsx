@@ -13,7 +13,6 @@ import {
     LAST_TIME_STORAGE_KEY,
     randomString,
     resetScoreStorage,
-    timestampToUsedTimeString,
     waitTimeout,
 } from '../utils';
 import { Icon, Theme } from '../themes/interface';

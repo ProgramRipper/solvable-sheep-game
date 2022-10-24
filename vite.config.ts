@@ -8,7 +8,4 @@ export default defineConfig({
         host: true,
         port: 5555,
     },
-    define: {
-        __DIY__: false,
-    },
 });

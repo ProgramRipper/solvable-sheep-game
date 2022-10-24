@@ -1,6 +1,5 @@
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 import style from './PersonalInfo.module.scss';
-import classNames from 'classnames';
 import { FixedAnimateScalePanel } from './FixedAnimateScalePanel';
 
 const GithubIcon: FC = () => {
