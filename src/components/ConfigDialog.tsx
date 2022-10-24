@@ -68,6 +68,7 @@ const ConfigDialog: FC<{
         pure: false,
         icons: new Array(10).fill(0).map(() => ({
             name: randomString(4),
+            color: 0,
             content: '',
             clickSound: '',
             tripleSound: '',

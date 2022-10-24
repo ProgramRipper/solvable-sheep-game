@@ -31,6 +31,7 @@ export const pddTheme: Theme<string> = {
     bgm: bgm,
     icons: images.map(({ name, content }) => ({
         name,
+        color: 0,
         content,
         clickSound: 'button-click',
         tripleSound: name,

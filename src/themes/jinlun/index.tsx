@@ -27,6 +27,7 @@ export const jinlunTheme: Theme<string> = {
     title: '🐎马了个马🐎',
     icons: icons.map(({ name, content }) => ({
         name,
+        color: 0,
         content,
         clickSound: name,
         tripleSound: '起飞啦',

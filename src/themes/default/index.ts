@@ -29,6 +29,7 @@ export const getDefaultTheme: () => Theme<DefaultSoundNames> = () => {
         backgroundColor: '#8dac85',
         icons: icons.map((icon) => ({
             name: icon,
+            color: 0,
             content: icon,
             clickSound: 'button-click',
             tripleSound: 'triple',
