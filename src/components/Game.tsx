@@ -126,7 +126,9 @@ const Symbol: FC<SymbolProps> = ({ x, y, icon, isCover, status, onClick }) => {
             className="symbol"
             style={{
                 transform: `translateX(${x}%) translateY(${y}%)`,
-                backgroundColor: isCover ? '#999' : 'white',
+                backgroundColor: `hsl(${icon.color + 12}, ${
+                    isCover ? 30 : 70
+                }%, 35%)`,
                 opacity: status < 2 ? 1 : 0,
             }}
             onClick={onClick}

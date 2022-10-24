@@ -11,90 +11,105 @@
     "icons": [
         {
             "name": "好听",
+            "color": 0,
             "content": "/好听.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "好耶",
+            "color": 24,
             "content": "/好耶.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "啊对对对",
+            "color": 48,
             "content": "/啊对对对.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "哇",
+            "color": 72,
             "content": "/哇.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "好屑",
+            "color": 96,
             "content": "/好屑.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "wink",
+            "color": 120,
             "content": "/wink.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "哼",
+            "color": 144,
             "content": "/哼.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "awsl",
+            "color": 168,
             "content": "/awsl.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "吃鲸",
+            "color": 192,
             "content": "/吃鲸.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "阿巴阿巴",
+            "color": 216,
             "content": "/阿巴阿巴.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "哭哭",
+            "color": 240,
             "content": "/哭哭.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "摸摸头",
+            "color": 264,
             "content": "/摸摸头.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "nya",
+            "color": 288,
             "content": "/nya.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "黑脸",
+            "color": 312,
             "content": "/黑脸.png",
             "clickSound": "button-click",
             "tripleSound": "triple"
         },
         {
             "name": "疑问",
+            "color": 336,
             "content": "/疑问.png",
             "clickSound": "button-click",
             "tripleSound": "triple"

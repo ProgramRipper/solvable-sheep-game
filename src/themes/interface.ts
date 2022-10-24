@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 export interface Icon<T = string> {
     name: string;
+    color: number;
     content: ReactNode;
     clickSound: T;
     tripleSound: T;
